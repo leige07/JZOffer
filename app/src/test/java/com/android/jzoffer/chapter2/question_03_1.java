@@ -33,12 +33,12 @@ public class question_03_1 {
             while(list[i] != i) {
                 if (list[i] == list[list[i]]) {
                     System.out.print(list[i] + " ");
+                    break;
                 } else {
                     int temp = list[i];
                     list[i] = list[temp];
                     list[temp] = temp;
                 }
-                break;
             }
         }
 
