@@ -7,7 +7,7 @@ package com.android.jzoffer.chapter2;
  *      请实现一个函数，把字符串中的每个空格替换成%20.
  *      如：输入“we are happy.” 输出“we%20are%20happy.”
  */
-public class question05 {
+public class question_05 {
 
     /*length 为字符数组str的总容量，大于或等于字符串str的实际长度*/
     void ReplaceBlank(char str[], int length)
